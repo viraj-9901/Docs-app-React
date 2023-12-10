@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    /* font-family: "Gilroy"; */
+    font-family: 'Ranade', sans-serif;
+}
+
+::selection{
+    color: #EFEAE3;
+}
