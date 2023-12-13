@@ -37,10 +37,10 @@ function Foreground() {
 
     const ref = useRef(null)
   return (
-    <div ref = {ref} className='fixed top-0 left-0 z-[3] w-full h-full flex flex-wrap gap-10 p-5'>
+    <div ref={ref} className='fixed top-0 left-0 z-[3] w-full h-full flex flex-wrap gap-10 p-5'>
         {
             data.map((item,key) => (
-                <Card data={item} reference = {ref} index={key}/>
+                <Card data={item} reference={ref} index={key}/>
             ))
         }
     </div>
